@@ -20,6 +20,11 @@ std::string Config::getTitle()
 	return std::string("Game");
 }
 
+std::string Config::getMapFileName()
+{
+	return std::string("file.txt");
+}
+
 int Config::getWidth() {
 	return 500;
 }

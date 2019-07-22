@@ -10,6 +10,7 @@ private:
 public:
 	static Config* getInstance();
 	std::string getTitle();
+	std::string getMapFileName();
 	int getWidth();
 	int getHeight();
 	~Config();
