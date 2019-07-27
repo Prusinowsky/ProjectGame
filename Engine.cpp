@@ -1,4 +1,5 @@
 #include "Engine.h"
+#include "Model.h"
 
 #include "Game.h"
 #include <SFML/Graphics.hpp>
@@ -17,6 +18,7 @@ Engine* Engine::getInstance() {
 
 void Engine::run()
 {
+	Model::getInstance();
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Green);
 	auto window = Game::getInstance()->getWindow();

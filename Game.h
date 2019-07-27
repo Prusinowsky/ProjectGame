@@ -1,6 +1,7 @@
 #pragma once
 #include "StateInterface.h"
 #include "StateGame.h"
+#include "StateMenu.h"
 
 #include <SFML/Graphics.hpp>
 

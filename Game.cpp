@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "Config.h"
 
+
 Game* Game::instance = nullptr;
 
 Game::Game() : state(new StateGame())

@@ -4,6 +4,7 @@ Model* Model::instance = nullptr;
 
 Model::Model()
 {
+	map.load();
 }
 
 
