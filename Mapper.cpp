@@ -17,7 +17,7 @@ void Mapper::load()
 	std::string line;
 	while (!file.eof()) {
 		file >> line;
-		std::cout << line;
+		std::cout << line << std::endl;
 	}
 	file.close();
 }
