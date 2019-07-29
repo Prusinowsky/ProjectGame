@@ -7,9 +7,11 @@ class ResourcesMenager
 public:
 	ResourcesMenager();
 	void loadFont(std::string fontName,std::string fileName);
+	void deleteFont(std::string fontName);
 	sf::Font &getFont(std::string fontName);
 
 	void loadTexture(std::string textureName, std::string filename);
+	void deleteTexture(std::string textureName);
 	sf::Texture &getTexture(std::string textureName);
 
 	~ResourcesMenager();
