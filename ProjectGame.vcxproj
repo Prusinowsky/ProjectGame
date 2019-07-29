@@ -137,6 +137,7 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ResourcesMenager.cpp" />
     <ClCompile Include="StateGame.cpp" />
     <ClCompile Include="StateInterface.cpp" />
     <ClCompile Include="StateMenu.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="Engine.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="ResourcesMenager.h" />
     <ClInclude Include="StateGame.h" />
     <ClInclude Include="StateInterface.h" />
     <ClInclude Include="StateMenu.h" />
