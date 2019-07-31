@@ -22,7 +22,7 @@ void Drawer::drawSquare(sf::Vector2i position, sf::Color color)
 
 	square.setPosition(static_cast<sf::Vector2f>(position));
 	square.setFillColor(color);
-
+	///square.SetSize() will be added, we need size of square from mapper class to do this.
 	auto Game = Game::getInstance();
 	auto window = Game->getWindow();
 
