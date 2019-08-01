@@ -8,7 +8,7 @@ private:
 	Drawer();
 public:
 	static Drawer* getInstance();
-	void drawSquare(sf::Vector2i position, sf::Color color);
+	void drawSquare(sf::Vector2i position, sf::Vector2f size, sf::Color color);
 	~Drawer();
 };
 

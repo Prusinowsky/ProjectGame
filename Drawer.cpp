@@ -16,19 +16,15 @@ Drawer * Drawer::getInstance()
 }
 
 
-void Drawer::drawSquare(sf::Vector2i position, sf::Color color)
+void Drawer::drawSquare(sf::Vector2i position, sf::Vector2f size, sf::Color color)
 {
 	sf::RectangleShape square;
-
-	square.setPosition(static_cast<sf::Vector2f>(position));
+	square.setPosition(sf::Vector2f(position));
+	square.setSize(size);
 	square.setFillColor(color);
-	///square.SetSize() will be added, we need size of square from mapper class to do this.
-	auto Game = Game::getInstance();
-	auto window = Game->getWindow();
 
-	window->draw(square);
+	Game::getInstance()->getWindow()->draw(square);
 }
-
 
 
 Drawer::~Drawer()
