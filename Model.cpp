@@ -6,9 +6,6 @@ Model* Model::instance = nullptr;
 Model::Model()
 {
 	map.load();
-	sf::Vector2f size = map.getSizeOfSquare();
-	std::cout << size.x;
-	std::cout << size.y;
 	
 }
 
