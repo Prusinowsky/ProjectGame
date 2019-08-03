@@ -4,7 +4,7 @@ Config* Config::instance = nullptr;
 
 Config::Config() 
 {
-
+	
 }
 
 
@@ -22,7 +22,7 @@ std::string Config::getTitle()
 
 std::string Config::getMapFileName()
 {
-	return std::string("file.txt");
+	return std::string("map.txt");
 }
 
 int Config::getWidth() {

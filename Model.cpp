@@ -1,9 +1,12 @@
 #include "Model.h"
+#include <iostream>
 
 Model* Model::instance = nullptr;
 
 Model::Model()
 {
+	map.load();
+	
 }
 
 
