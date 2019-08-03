@@ -1,4 +1,5 @@
 #pragma once
+#include <SFML/Graphics.hpp>
 class Drawer
 {
 private:
@@ -7,6 +8,7 @@ private:
 	Drawer();
 public:
 	static Drawer* getInstance();
+	void drawSquare(sf::Vector2i position, sf::Vector2f size, sf::Color color);
 	~Drawer();
 };
 

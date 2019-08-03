@@ -43,6 +43,7 @@
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="Mapper.cpp">
+
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,7 +72,9 @@
     <ClInclude Include="Engine.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+
     <ClInclude Include="Mapper.h">
+
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
